@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94E6EBCE1EDFECCE00A850E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EBCD1EDFECCE00A850E1 /* AppDelegate.swift */; };
+		94E6EBD01EDFECCE00A850E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EBCF1EDFECCE00A850E1 /* ViewController.swift */; };
+		94E6EBD31EDFECCE00A850E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E6EBD11EDFECCE00A850E1 /* Main.storyboard */; };
+		94E6EBD51EDFECCE00A850E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E6EBD41EDFECCE00A850E1 /* Assets.xcassets */; };
+		94E6EBD81EDFECCE00A850E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E6EBD61EDFECCE00A850E1 /* LaunchScreen.storyboard */; };
+		94E6EBE31EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EBE21EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoTests.swift */; };
+		94E6EBEE1EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EBED1EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94E6EBDF1EDFECCF00A850E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94E6EBC21EDFECCE00A850E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E6EBC91EDFECCE00A850E1;
+			remoteInfo = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+		};
+		94E6EBEA1EDFECCF00A850E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94E6EBC21EDFECCE00A850E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E6EBC91EDFECCE00A850E1;
+			remoteInfo = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94E6EBCA1EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E6EBCD1EDFECCE00A850E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94E6EBCF1EDFECCE00A850E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94E6EBD21EDFECCE00A850E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94E6EBD41EDFECCE00A850E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94E6EBD71EDFECCE00A850E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94E6EBD91EDFECCE00A850E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E6EBDE1EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E6EBE21EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoTests.swift; sourceTree = "<group>"; };
+		94E6EBE41EDFECCF00A850E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E6EBE91EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E6EBED1EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoUITests.swift; sourceTree = "<group>"; };
+		94E6EBEF1EDFECCF00A850E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94E6EBC71EDFECCE00A850E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E6EBDB1EDFECCF00A850E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E6EBE61EDFECCF00A850E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94E6EBC11EDFECCE00A850E1 = {
+			isa = PBXGroup;
+			children = (
+				94E6EBCC1EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto */,
+				94E6EBE11EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests */,
+				94E6EBEC1EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests */,
+				94E6EBCB1EDFECCE00A850E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94E6EBCB1EDFECCE00A850E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94E6EBCA1EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto.app */,
+				94E6EBDE1EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests.xctest */,
+				94E6EBE91EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94E6EBCC1EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto */ = {
+			isa = PBXGroup;
+			children = (
+				94E6EBCD1EDFECCE00A850E1 /* AppDelegate.swift */,
+				94E6EBCF1EDFECCE00A850E1 /* ViewController.swift */,
+				94E6EBD11EDFECCE00A850E1 /* Main.storyboard */,
+				94E6EBD41EDFECCE00A850E1 /* Assets.xcassets */,
+				94E6EBD61EDFECCE00A850E1 /* LaunchScreen.storyboard */,
+				94E6EBD91EDFECCE00A850E1 /* Info.plist */,
+			);
+			path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+			sourceTree = "<group>";
+		};
+		94E6EBE11EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests */ = {
+			isa = PBXGroup;
+			children = (
+				94E6EBE21EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoTests.swift */,
+				94E6EBE41EDFECCF00A850E1 /* Info.plist */,
+			);
+			path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests";
+			sourceTree = "<group>";
+		};
+		94E6EBEC1EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94E6EBED1EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoUITests.swift */,
+				94E6EBEF1EDFECCF00A850E1 /* Info.plist */,
+			);
+			path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94E6EBC91EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E6EBF21EDFECCF00A850E1 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto" */;
+			buildPhases = (
+				94E6EBC61EDFECCE00A850E1 /* Sources */,
+				94E6EBC71EDFECCE00A850E1 /* Frameworks */,
+				94E6EBC81EDFECCE00A850E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+			productName = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+			productReference = 94E6EBCA1EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94E6EBDD1EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E6EBF51EDFECCF00A850E1 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests" */;
+			buildPhases = (
+				94E6EBDA1EDFECCF00A850E1 /* Sources */,
+				94E6EBDB1EDFECCF00A850E1 /* Frameworks */,
+				94E6EBDC1EDFECCF00A850E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E6EBE01EDFECCF00A850E1 /* PBXTargetDependency */,
+			);
+			name = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests";
+			productName = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests";
+			productReference = 94E6EBDE1EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94E6EBE81EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E6EBF81EDFECCF00A850E1 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests" */;
+			buildPhases = (
+				94E6EBE51EDFECCF00A850E1 /* Sources */,
+				94E6EBE61EDFECCF00A850E1 /* Frameworks */,
+				94E6EBE71EDFECCF00A850E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E6EBEB1EDFECCF00A850E1 /* PBXTargetDependency */,
+			);
+			name = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests";
+			productName = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests";
+			productReference = 94E6EBE91EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94E6EBC21EDFECCE00A850E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Juan Carlos Carbajal Ipenza";
+				TargetAttributes = {
+					94E6EBC91EDFECCE00A850E1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+					};
+					94E6EBDD1EDFECCF00A850E1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94E6EBC91EDFECCE00A850E1;
+					};
+					94E6EBE81EDFECCF00A850E1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94E6EBC91EDFECCE00A850E1;
+					};
+				};
+			};
+			buildConfigurationList = 94E6EBC51EDFECCE00A850E1 /* Build configuration list for PBXProject "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94E6EBC11EDFECCE00A850E1;
+			productRefGroup = 94E6EBCB1EDFECCE00A850E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94E6EBC91EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto */,
+				94E6EBDD1EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests */,
+				94E6EBE81EDFECCF00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94E6EBC81EDFECCE00A850E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E6EBD81EDFECCE00A850E1 /* LaunchScreen.storyboard in Resources */,
+				94E6EBD51EDFECCE00A850E1 /* Assets.xcassets in Resources */,
+				94E6EBD31EDFECCE00A850E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E6EBDC1EDFECCF00A850E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E6EBE71EDFECCF00A850E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94E6EBC61EDFECCE00A850E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E6EBD01EDFECCE00A850E1 /* ViewController.swift in Sources */,
+				94E6EBCE1EDFECCE00A850E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E6EBDA1EDFECCF00A850E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E6EBE31EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E6EBE51EDFECCF00A850E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E6EBEE1EDFECCF00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_3_EjemSacudidaGestoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94E6EBE01EDFECCF00A850E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E6EBC91EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto */;
+			targetProxy = 94E6EBDF1EDFECCF00A850E1 /* PBXContainerItemProxy */;
+		};
+		94E6EBEB1EDFECCF00A850E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E6EBC91EDFECCE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto */;
+			targetProxy = 94E6EBEA1EDFECCF00A850E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94E6EBD11EDFECCE00A850E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E6EBD21EDFECCE00A850E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94E6EBD61EDFECCE00A850E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E6EBD71EDFECCE00A850E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94E6EBF01EDFECCF00A850E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94E6EBF11EDFECCF00A850E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94E6EBF31EDFECCF00A850E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-3-EjemSacudidaGesto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94E6EBF41EDFECCF00A850E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-3-EjemSacudidaGesto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94E6EBF61EDFECCF00A850E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-3-EjemSacudidaGestoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto.app/Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+			};
+			name = Debug;
+		};
+		94E6EBF71EDFECCF00A850E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-3-EjemSacudidaGestoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto.app/Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+			};
+			name = Release;
+		};
+		94E6EBF91EDFECCF00A850E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-3-EjemSacudidaGestoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+			};
+			name = Debug;
+		};
+		94E6EBFA1EDFECCF00A850E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Interactuando-con-el-hardware-del-dispositivo-iOS-Semana-3-EjemSacudidaGestoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94E6EBC51EDFECCE00A850E1 /* Build configuration list for PBXProject "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E6EBF01EDFECCF00A850E1 /* Debug */,
+				94E6EBF11EDFECCF00A850E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E6EBF21EDFECCF00A850E1 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGesto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E6EBF31EDFECCF00A850E1 /* Debug */,
+				94E6EBF41EDFECCF00A850E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94E6EBF51EDFECCF00A850E1 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E6EBF61EDFECCF00A850E1 /* Debug */,
+				94E6EBF71EDFECCF00A850E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94E6EBF81EDFECCF00A850E1 /* Build configuration list for PBXNativeTarget "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-3_EjemSacudidaGestoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E6EBF91EDFECCF00A850E1 /* Debug */,
+				94E6EBFA1EDFECCF00A850E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94E6EBC21EDFECCE00A850E1 /* Project object */;
+}
